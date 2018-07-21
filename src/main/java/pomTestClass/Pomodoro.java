@@ -1,4 +1,4 @@
-package main.java.pomUI;
+package main.java.pomTestClass;
 import java.applet.Applet;
 import java.awt.*;
 import java.awt.TrayIcon.MessageType;
