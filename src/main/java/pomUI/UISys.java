@@ -75,7 +75,7 @@ public class UISys extends JFrame implements KeyListener{//class to handle all t
 		if(keyCode==KeyEvent.VK_ENTER && myPom.currentStage==Stage.Setup) {//read the input and set it as sessiontime
 			
 			String input=field.getText();
-			if(!isNumber(input)) {//illegal input
+			if(!isNumber(input)||input.charAt(0)=='0') {//illegal input
 				field.setText("");
 			}
 			else {
