@@ -8,11 +8,11 @@ import java.awt.TrayIcon;
 import java.awt.TrayIcon.MessageType;
 import java.net.MalformedURLException;
 
-public class Toastie {//class which can output stings with the windows toast feature
+public class Toasty {//class which can output stings with the windows toast feature
 
 	String Occupation;
 	
-	public Toastie(String occ) {
+	public Toasty(String occ) {
 		Occupation=occ;
 	}
 	

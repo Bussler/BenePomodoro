@@ -15,7 +15,7 @@ public class Pom {//class to handle pomodoro management
 	}
 	
 	//Attributes
-	Toastie myFavToast;
+	Toasty myFavToast;
 	UISys myUI;
 	
 	Stage currentStage;
@@ -28,7 +28,7 @@ public class Pom {//class to handle pomodoro management
 		
 		currentStage=Stage.Setup;
 		
-		myFavToast=new Toastie("Pomodoro Messenger");
+		myFavToast=new Toasty("Pomodoro Messenger");
 		myUI=new UISys(this);
 		
 		try {

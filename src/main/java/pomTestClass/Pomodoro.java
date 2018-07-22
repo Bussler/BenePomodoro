@@ -159,7 +159,7 @@ public class Pomodoro extends JFrame implements KeyListener{
 		}
 		
 		if(keyCode==KeyEvent.VK_ENTER&&stage==0) {
-			System.out.println(field.getText());
+			//System.out.println(field.getText());
 			
 			String input=field.getText();
 			if(input.equals("")) {
