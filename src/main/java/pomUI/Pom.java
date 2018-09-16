@@ -74,7 +74,10 @@ public class Pom {//class to handle pomodoro management
 				}
 				
 				Sessiontimer++;
-				PauseTime=5;
+				PauseTime=SessionTime/5;
+				if(PauseTime<5) {
+					PauseTime=5;
+				}
 				if(Sessiontimer>=4) {
 					PauseTime+=10;
 					Sessiontimer=0;
